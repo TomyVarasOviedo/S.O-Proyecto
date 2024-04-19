@@ -1,0 +1,4 @@
+-https://www.diskinternals.com/linux-reader/date-shell-script/
+-https://ioflood.com/blog/bash-date-format
+https://ioflood.com/blog/bash-if-else/
+-https://www.atatus.com/blog/bash-scripting/
