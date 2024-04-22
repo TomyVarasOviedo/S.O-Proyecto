@@ -12,35 +12,36 @@
 #----------------#
 #----Funciones---#
 #----------------#
-# Function to create a directory
+# Crear el directorio
 create_dir() {
   if [ -d $1 ]; then
-    echo "Directory $1 already exists."
+    echo "El directorio $1 ya existe."
   else
     mkdir $1
+    # Se usa el comando $? para verificar si se pudo crear el directorio con mkdir
     if [ $? -eq 0 ]; then
-      echo "Directory $1 created successfully."
+      echo "Se ha creado el directorio: $1."
     else
-      echo "Failed to create directory $1."
+      echo "No se pudo crear el directorio: $1."
     fi
   fi
 }
-# Function to list all directories in the current directory
+# Listar todos los directorios que se encuentran en el directorio actual
 list_dirs() {
-  echo "Listing all directories in the current directory:"
+  echo "Listando todos los directorios que se encuentran en el directorio actual:"
   for dir in $(ls); do
     echo ${dir%/}
   done
 }
 
-# Function to list all directories and files in the current directory
+# Listar todos los directorios y archivos del directorio actual
 list_all() {
   echo "Listing all directories and files in the current directory:"
   ls -lR
 }
 
 
-# Function to delete a directory
+# Eliminar un directorio
 delete_dir() {
   if [ -d $1 ]; then
     if [ "$(ls -A $1)" ]; then
