@@ -1,4 +1,12 @@
+-https://es.linux-console.net/?p=27565
 -https://www.diskinternals.com/linux-reader/date-shell-script/
 -https://ioflood.com/blog/bash-date-format
-https://ioflood.com/blog/bash-if-else/
+-https://ioflood.com/blog/bash-if-else/
 -https://www.atatus.com/blog/bash-scripting/
+https://linuxenespanol.net/saber-si-un-fichero-existe-con-bash/
+https://esgeeks.com/operadores-concatenar-comandos-linux/
+https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
+-https://linuxsimply.com/bash-scripting-tutorial/string/split-string/
+-https://www.baeldung.com/linux/delete-lines-containing-string-from-file
+-https://codefather.tech/blog/bash-loop-through-lines-file/
