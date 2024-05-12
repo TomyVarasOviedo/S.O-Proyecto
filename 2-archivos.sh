@@ -36,7 +36,7 @@ list_dirs() {
 
 # Listar todos los directorios y archivos del directorio actual
 list_all() {
-  echo "Listing all directories and files in the current directory:"
+  echo "Listando todos los directorios y archivos del directorio actual:"
   ls -lR
 }
 
@@ -45,19 +45,20 @@ list_all() {
 delete_dir() {
   if [ -d $1 ]; then
     if [ "$(ls -A $1)" ]; then
-      echo "Directory $1 is not empty."
+      echo "El Directorio $1 no esta vacio."
     else
       rm -r $1
       if [ $? -eq 0 ]; then
-        echo "Directory $1 deleted successfully."
+        echo "El directorio $1 ha sido eliminado satisfactoriamente."
       else
-        echo "Failed to delete directory $1."
+        echo "No se pudo eliminar el directorio $1."
       fi
     fi
   else
-    echo "Directory $1 does not exist."
+    echo "El directorio $1 no existe."
   fi
 }
+
 #----------------#
 #----Funciones---#
 #----------------#
@@ -68,6 +69,7 @@ while test $# -gt 0; do
 			echo "-c Crear directorio"
 			echo "-d Eliminar directorio"
 			echo "-l Listar directorio actual"
+   			echo "-b Listar todo lo que contenga el directorio actual"
 			exit 0
 			;;
 		-c)
@@ -76,15 +78,20 @@ while test $# -gt 0; do
       break
 			;;
 		-d)
-      delete_dir "$2"
+      			delete_dir "$2"
 			exit 1
       break
 			;;
 		-l)
-			list_dirs
+			list_dirs()
 			exit 1
       break
 			;;
+   		-b)
+     			list_all()
+			exit 1
+      break
+      			;;
 		*)
 			break
 			;;
