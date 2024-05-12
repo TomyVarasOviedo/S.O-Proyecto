@@ -27,15 +27,15 @@ do
 	#Dependiendo de la opcion ingresada se examina un caso.
     case $opcion in
 
-        1) ./Funcion1.sh ;;
+        1) ./1-calendario.sh ;;
 
-        2) ./Funcion2.sh ;;
+        2) ./2-archivos.sh ;;
 
-        3) ./Funcion3.sh ;;
+        3) ./3-login.sh ;;
 
-        4) ./Funcion4.sh ;;
+        4) ./4-lista_contacto.sh ;;
 
-        5) ./Funcion5.sh ;;
+        5) ./5-tipo_archivo.sh ;;
 
         6) echo "Hasta Luego!"; exit 0 ;;
 
