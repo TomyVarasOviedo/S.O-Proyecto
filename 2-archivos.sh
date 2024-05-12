@@ -83,12 +83,12 @@ while test $# -gt 0; do
       break
 			;;
 		-l)
-			list_dirs()
+			list_dirs
 			exit 1
       break
 			;;
    		-b)
-     			list_all()
+     			list_all
 			exit 1
       break
       			;;

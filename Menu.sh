@@ -1,11 +1,10 @@
 #!/bin/bash
 
-
+clear
 while true
 
 do
 
-    clear
 
     echo "Menu:"
 
@@ -27,19 +26,31 @@ do
 	#Dependiendo de la opcion ingresada se examina un caso.
     case $opcion in
 
-        1) ./1-calendario.sh ;;
+        1)
+            clear 
+            source 1-calendario.sh ;;
 
-        2) ./2-archivos.sh ;;
+        2) 
+            clear
+            source 2-archivos.sh ;;
 
-        3) ./3-login.sh ;;
+        3) 
+            clear
+            source 3-login.sh ;;
 
-        4) ./4-lista_contacto.sh ;;
+        4) 
+            clear
+            source 4-lista_contacto.sh ;;
 
-        5) ./5-tipo_archivo.sh ;;
+        5) 
+            clear
+            source 5-tipo_archivo.sh ;;
 
         6) echo "Hasta Luego!"; exit 0 ;;
 
-        *) echo "Opcion invalida. Intente de nuevo." ;;
+        *) 
+            clear
+            echo "Opcion invalida. Intente de nuevo." ;;
 
     esac
 

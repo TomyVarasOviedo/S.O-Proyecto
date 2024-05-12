@@ -2,3 +2,4 @@
 
 Tomas-Varas,2345678,tomas.varas@comunidad.edu.ar
 Diego-Escorche,22458769,diego.escorche@comunidad.ub.edu.ar
+Audrey-Barrientos,342365478,audrey.barrientos@comunidad.ub.edu.ar
