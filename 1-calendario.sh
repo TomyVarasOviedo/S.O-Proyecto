@@ -3,4 +3,4 @@ dia=$(date +%d)
 mes=$(date +%B)
 hora=$(date '+%-H:%-M:%-S')
 
-echo "Hoy es $dia de $mes, a las $hora"
+echo "Esta consulta se realizo el $dia/$mes a las $hora"
