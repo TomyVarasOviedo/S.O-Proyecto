@@ -10,3 +10,5 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions/C
 -https://linuxsimply.com/bash-scripting-tutorial/string/split-string/
 -https://www.baeldung.com/linux/delete-lines-containing-string-from-file
 -https://codefather.tech/blog/bash-loop-through-lines-file/
+https://laguialinux.es/comandos-linux-para-copias-de-seguridad/~
+https://installati.one/install-lprint-kalilinux/
